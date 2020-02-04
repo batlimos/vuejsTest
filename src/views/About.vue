@@ -1,16 +1,21 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
-    <WelcomeMassege/>
+    <h1>{{pagename}}</h1>
+    <p>{{pageDesc}}</p>
   </div>
 </template>
 
 <script>
-import WelcomeMassege from "@/components/WelcomeMassege.vue";
+
 
 export default {
+  data() {
+    return {
+      pageName: "about page",
+      pageDesc :"lorem upsum"
+    }
+  },
   components: {
-    WelcomeMassege,
   }
 };
 </script>
