@@ -1,20 +1,23 @@
 <template>
     <div>
-        <h1>help page</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, odit. Perspiciatis cum consequatur quam dicta placeat, deserunt iure voluptas eos quaerat facilis ducimus recusandae, vero culpa impedit vitae reprehenderit excepturi?</p>
-        <QuiSommes/>
-        
+        <h1>{{pageName}}</h1>
+        <p>{{pageDec}}</p>
     </div>
 </template>
 
 <script>
-import QuiSommes from '@/components/QuiSommes.vue';
+
 
 
 export default {
+    data() {
+        return {
+            pageName: "help page",
+            pageDec:"Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        }
+    },
     name: "Help",
     components: {
-        QuiSommes,
         } 
 };
 </script>

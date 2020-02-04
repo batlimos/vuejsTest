@@ -10,6 +10,9 @@
             <router-link to="/about" tag="li">
                 <a href="">About</a>
             </router-link>
+            <router-link to="/blog" tag="li">
+                <a href="">Blog</a>
+            </router-link>
             <router-link to="/help" tag="li" replace>
                 <a href="">Help</a>
             </router-link>

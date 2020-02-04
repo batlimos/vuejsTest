@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>{{pagename}}</h1>
+    <h1>{{pageName}}</h1>
     <p>{{pageDesc}}</p>
   </div>
 </template>
